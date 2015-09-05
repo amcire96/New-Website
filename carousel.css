@@ -118,11 +118,14 @@ body {
 
 
 
+
 .vcenter{
     display: inline-block;
     vertical-align: middle;
     float: none;
 }
+
+
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
 color: #80b2cc;  /*Sets the text hover color on navbar*/
@@ -134,16 +137,20 @@ color: white; /*BACKGROUND color for active*/
 background-color: #80b2cc;
 }
 
-  .navbar-default {
-    background-color: #00478f;
-    border-color: #030033;
+.navbar-default {
+  background-color: #00478f;
+  border-color: #030033;
 }
 
 
 
-  .navbar-default .navbar-nav > li > a {
-   color: white; /*Change active text color here*/
-    }
+.navbar-default .navbar-nav > li > a {
+  color: white; /*Change active text color here*/
+}
+
+.project-info{
+  margin-top: 50px;
+}
 
 h1{
   color: #00478f;
